@@ -1,0 +1,31 @@
+@import url(./css/header.css);
+@import url(./css/about.css);
+@import url(./css/metrics.css);
+@import url(./css/jobs.css);
+@import url(./css/testimony.css);
+@import url(./css/form.css);
+@import url(./css/footer.css);
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --main-color: hsla(0, 59%, 35%, 1);
+    --main-color-transparency: hsla(0, 60%, 35%, 0.05);
+    --strong-color: hsla(221, 43%, 11%, 1);
+    --light-color: hsla(220, 13%, 46%, 1);
+    --logo-name-color: hsla(220, 15%, 27%, 1);
+    --border-job-color: hsl(220, 17%, 93%);
+    --footer-color: hsla(210, 24%, 98%, 1);
+    --border-footer-color: hsla(216, 16%, 84%, 1);
+    --shadow-footer-color: hsla(220, 43%, 11%, 0.05);
+    --copyright-color: hsla(218, 15%, 65%, 1);
+
+    --main-font: "Inter", sans-serif;
+}
+
+body {
+    background: var(--white);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    height: 100vh;
+}

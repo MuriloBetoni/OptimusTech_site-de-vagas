@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 7em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.logo__title {
+    font-size: 18px;
+    color: var(--logo-name-color);
+}
+
+.menu {
+    display: flex;
+    gap: 2em;
+    margin: 0 auto 0 7em;
+}
+
+.menu__link {
+    color: var(--light-color);
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.header-buttons__link-login {
+    color: var(--light-color);
+}
+
+.header-buttons__link-signup {
+    background-color: var(--main-color);
+    color: var(--white);
+    padding: 0.8em 1em;
+    border-radius: 8px;
+}
